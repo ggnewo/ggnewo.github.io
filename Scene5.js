@@ -9,10 +9,8 @@ class Scene5 extends Phaser.Scene{
         this.graysquare.setScale(2.3)
 
         this.add.text(270,525,"Made with <3 by Owen P", {fill: "black"})
-        this.add.text(75,100,"Music Used:", {fill: "black"})
-        this.add.text(75,150,"Aloe Lite - 8 Bit / Good Kid (not actually used because it was sucking)", {fill: "black"})
-        this.add.text(75,200,"Hosted on github.com", {fill: "black"})
-        this.add.text(75,250,'All other assests made by me :) ', {fill: "black"})
+        this.add.text(75,150,"Hosted on github.com", {fill: "black"})
+        this.add.text(75,200,"All other assests made by me :)", {fill: "black"})
             
         this.backbutton = this.add.image(375,400,'back')
         this.backbutton.setInteractive()

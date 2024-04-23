@@ -43,7 +43,7 @@ class Scene3 extends Phaser.Scene {
         this.physics.add.overlap(this.sprite, this.cheese, function(){
             this.scene.start('Scene6')
         }.bind(this))
-        this.time1 = 3;
+        this.time1 = 4;
         
         
         this.timer = this.add.text(250, 50, `You have ${this.time1} seconds left`, { font: "25px Arial", fill: "black", stroke: "white", strokeThickness: 2 });
